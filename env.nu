@@ -57,25 +57,26 @@ $env.EDITOR = "nvim"
 
 # brew and other external packages
 use std "path add"
-path add "/Users/ryan/bin"
-path add "/Users/ryan/dev/lua-language-server/bin"
+path add "/Users/ryan.charles/bin"
+path add "/Users/ryan.charles/dev/lua-language-server/bin"
 path add "/opt/homebrew/bin"
 path add "/opt/homebrew/opt/mysql-client/bin"
-$env.DENO_INSTALL = "/Users/ryan/.deno"
-path add "/Users/ryan/.deno/bin"
-$env.PNPM_HOME = "/Users/ryan/Library/pnpm"
-path add "/Users/ryan/Library/pnpm"
+$env.DENO_INSTALL = "/Users/ryan.charles/.deno"
+path add "/Users/ryan.charles/.deno/bin"
+$env.PNPM_HOME = "/Users/ryan.charles/Library/pnpm"
+path add "/Users/ryan.charles/Library/pnpm"
 path add "/opt/homebrew/opt/node@24/bin"
-$env.CARGO_HOME = "/Users/ryan/.cargo"
-path add "/Users/ryan/.cargo/bin"
+$env.CARGO_HOME = "/Users/ryan.charles/.cargo"
+path add "/Users/ryan.charles/.cargo/bin"
 path add "~/bin"
 # my packages
-# path add "/Users/ryan/dev/nutorch/rs/nutorch/target/release"
-path add "/Users/ryan/dev/chatvim.cli/bin"
+# path add "/Users/ryan.charles/dev/nutorch/rs/nutorch/target/release"
+path add "/Users/ryan.charles/dev/chatvim.cli/bin"
 path add "/Library/TeX/texbin"
 path add "/usr/local/bin"
 path add "~/.local/bin"
 path add "/Applications/Docker.app/Contents/Resources/bin"
+path add "/opt/homebrew/opt/sqlite3/bin"
 
 # this is for tch-rs, the tool for putting pytorch in rust
 $env.LIBTORCH = "/opt/homebrew/lib/python3.11/site-packages/torch"
@@ -99,6 +100,6 @@ alias vim = nvim
 alias macopen = /usr/bin/open
 
 # git completions
-source "~/dev/nu_scripts/custom-completions/git/git-completions.nu"
+# source "~/dev/nu_scripts/custom-completions/git/git-completions.nu"
 # cargo completions
-source "~/dev/nu_scripts/custom-completions/cargo/cargo-completions.nu"
+# source "~/dev/nu_scripts/custom-completions/cargo/cargo-completions.nu"
