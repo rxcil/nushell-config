@@ -101,7 +101,6 @@ source "env_api_keys.nu"
 
 # aliases
 alias vim = nvim
-alias macopen = /usr/bin/open
 
 # git completions
 # source "~/dev/nu_scripts/custom-completions/git/git-completions.nu"
