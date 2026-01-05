@@ -911,6 +911,7 @@ $env.config = {
     file_format: "sqlite"     # change this from "plaintext" or "plaintext2"
     max_size: 100000           # or whatever you like
     sync_on_enter: true
+    isolation: true
   }
   # ... other config options
 }

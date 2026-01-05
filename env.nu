@@ -77,6 +77,10 @@ path add "/usr/local/bin"
 path add "~/.local/bin"
 path add "/Applications/Docker.app/Contents/Resources/bin"
 path add "/opt/homebrew/opt/sqlite3/bin"
+path add "/Users/ryan.charles/.nix-profile/bin"
+path add "/nix/var/nix/profiles/default/bin"
+path add "/Users/ryan.charles/.opencode/bin"
+path add "/Users/ryan.charles/dev/termsurf/zig-out/bin"
 
 # this is for tch-rs, the tool for putting pytorch in rust
 $env.LIBTORCH = "/opt/homebrew/lib/python3.11/site-packages/torch"
@@ -103,3 +107,6 @@ alias macopen = /usr/bin/open
 # source "~/dev/nu_scripts/custom-completions/git/git-completions.nu"
 # cargo completions
 # source "~/dev/nu_scripts/custom-completions/cargo/cargo-completions.nu"
+
+# increase file watcher limit for seeing if this fixing neovim crashing
+ulimit -n 10240
