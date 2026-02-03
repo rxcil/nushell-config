@@ -9,4 +9,4 @@ $env.config = {
   }
   # ... other config options
 }
-source $"($nu.home-path)/.cargo/env.nu"
+# source $"($nu.home-dir)/.cargo/env.nu"
